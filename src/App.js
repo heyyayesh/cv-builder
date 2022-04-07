@@ -1,7 +1,10 @@
 import './App.css';
+import Biodata from './components/Biodata';
 
 function App() {
-  return <h1>Hello World!</h1>
+  return (
+    <Biodata />
+  );
 }
 
 export default App;
