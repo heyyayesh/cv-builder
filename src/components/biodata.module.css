@@ -1,0 +1,21 @@
+.biodata {
+  background-color: #003573;
+  color: white;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  /* text-align: center; */
+}
+
+.biodata > img {
+  width: 260px;
+  height: 260px;
+  background-size: cover;
+  position: relative;
+  margin-bottom: 1rem;
+}
+
+.biodata > input[type="file"] {
+  position: absolute;
+  display: none;
+}

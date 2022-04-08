@@ -3,7 +3,10 @@ import Biodata from './components/Biodata';
 
 function App() {
   return (
-    <Biodata />
+    <div className='App'>
+      <Biodata />
+
+    </div>
   );
 }
 

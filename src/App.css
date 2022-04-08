@@ -1,0 +1,12 @@
+body {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  overflow-x: scroll;
+}
+
+.App {
+  height: fit-content;
+  display: grid;
+  grid-template-columns: 300px 900px;
+}
