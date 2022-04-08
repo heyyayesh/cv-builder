@@ -22,17 +22,17 @@ function Contact() {
     <div className={styles.Contact}>
       <h2>Contact</h2>
       <div>
-      <i class="fa-solid fa-location-dot"></i><h3>Address</h3>
+      <i className="fa-solid fa-location-dot"></i><h3>Address</h3>
         <EditableText type='address' content={contact.address} handleChange={handleChange} />
       </div>
 
       <div>
-      <i class="fa-solid fa-phone"></i><h3>Phone</h3>
+      <i className="fa-solid fa-phone"></i><h3>Phone</h3>
         <EditableText type='phone' content={contact.phone} handleChange={handleChange} />
       </div>
 
       <div>
-      <i class="fa-solid fa-at"></i><h3>Email</h3>
+      <i className="fa-solid fa-at"></i><h3>Email</h3>
         <EditableText type='email' content={contact.email} handleChange={handleChange} />
       </div>
     </div>
