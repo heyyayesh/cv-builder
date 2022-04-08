@@ -1,11 +1,14 @@
 import './App.css';
 import Biodata from './components/Biodata';
+import Contact from './components/Contact';
 
 function App() {
   return (
     <div className='App'>
-      <Biodata />
-
+      <aside>
+        <Biodata />
+        <Contact />
+      </aside>
     </div>
   );
 }

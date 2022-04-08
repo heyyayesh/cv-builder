@@ -8,7 +8,7 @@ p.firstname {
 }
 
 p.profession {
-  font-size: 24px;
+  font-size: 1.5rem;
   font-weight: 300;
   margin-top: .5rem;
   text-align: center;
@@ -16,8 +16,14 @@ p.profession {
   font-family: 'Karla';
 }
 
+input {
+  padding: .2rem;
+}
+
 input:focus {
   border: none;
+  background-color: #3b70ad;
+  color: white;
 }
 
 input.firstname {
@@ -26,4 +32,16 @@ input.firstname {
 
 input.profession {
   font-size: 1.5rem;
+}
+
+p.contact {
+  font-family: 'Karla';
+  font-weight: 300;
+  font-size: 1.1rem;
+  margin-top: .2rem;
+}
+
+input.contact {
+  font-size: 1.1rem;
+  text-indent: .4rem;
 }

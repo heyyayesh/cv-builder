@@ -1,0 +1,23 @@
+.Contact {
+  color: white;
+  margin: 30px 0;
+}
+
+.Contact > div {
+  margin-top: 20px;
+  padding: 0 20px;
+}
+
+h2 {
+  font-family: 'Inter', sans-serif;
+  font-size: 1.75rem;
+  background-color: #002b5c;
+  padding: .3rem 20px;
+}
+
+h3 {
+  font-family: 'Inter';
+  font-size: 1.23rem;
+  display: inline-block;
+  margin-left: .7rem;
+}
