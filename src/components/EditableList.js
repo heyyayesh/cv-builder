@@ -7,12 +7,12 @@ function EditableList(props) {
   const [newInputVisible, setNewInputVisible] = React.useState(false);
 
   const handleListEnter = () => {
-    const btn = document.getElementById('plus');
+    const btn = document.getElementById(props.heading);
     btn.classList.remove(styles.invisible);
   }
 
   const handleListLeave = () => {
-    const btn = document.getElementById('plus');
+    const btn = document.getElementById(props.heading);
     btn.classList.add(styles.invisible);
     setNewInputVisible(false);
   }
@@ -63,12 +63,11 @@ function EditableList(props) {
     </ul>
   );
 
-  console.log(listItems);
   return (
     <div className={styles.EditableList} onMouseEnter={handleListEnter} onMouseLeave={handleListLeave}>
       <h2>{props.heading}</h2>
       {ul}
-      <button id='plus' className={`${styles.addItem} ${styles.invisible}`} onClick={handleAddItemClick}><i className="fa-solid fa-plus"></i></button>
+      <button id={props.heading} className={`${styles.addItem} ${styles.invisible}`} onClick={handleAddItemClick}><i className="fa-solid fa-plus"></i></button>
       {newInputVisible && <input className={styles.newItemInput} onKeyDown={(e) => handleNewInputEnter(e)} autoFocus />}
     </div>
   )

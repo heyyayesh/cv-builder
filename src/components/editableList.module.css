@@ -7,11 +7,11 @@
   display: none;
 }
 
-ul {
+.EditableList ul {
   padding: 0 20px;
 }
 
-li {
+.EditableList li {
   font-family: 'Karla';
   font-weight: 300;
   font-size: 1.1rem;
@@ -21,7 +21,7 @@ li {
   margin-left: 20px;
 }
 
-h2 {
+.EditableList h2 {
   font-family: 'Inter', sans-serif;
   font-size: 1.75rem;
   background-color: #002b5c;
@@ -39,7 +39,7 @@ button.addItem {
   transform: scale(1);
 }
 
-li > button {
+.EditableList li > button {
   width: 20px;
   height: 20px;
   position: absolute;
@@ -48,7 +48,7 @@ li > button {
   cursor: pointer;
 }
 
-button:hover {
+.EditableList button:hover {
   transform: scale(1.1);
 }
 

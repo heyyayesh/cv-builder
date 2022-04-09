@@ -3,6 +3,7 @@ import Biodata from './components/Biodata';
 import Contact from './components/Contact';
 import Hobbies from './components/Hobbies';
 import Skills from './components/Skills';
+import About from './components/About';
 
 function App() {
   return (
@@ -13,6 +14,9 @@ function App() {
         <Skills />
         <Hobbies />
       </aside>
+      <main>
+        <About />
+      </main>
     </div>
   );
 }

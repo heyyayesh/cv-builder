@@ -8,14 +8,14 @@
   padding: 0 20px;
 }
 
-h2 {
+.Contact h2 {
   font-family: 'Inter', sans-serif;
   font-size: 1.75rem;
   background-color: #002b5c;
   padding: .3rem 20px;
 }
 
-h3 {
+.Contact h3 {
   font-family: 'Inter';
   font-size: 1.23rem;
   display: inline-block;
