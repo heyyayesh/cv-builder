@@ -1,6 +1,7 @@
 import './App.css';
 import Biodata from './components/Biodata';
 import Contact from './components/Contact';
+import Hobbies from './components/Hobbies';
 import Skills from './components/Skills';
 
 function App() {
@@ -10,6 +11,7 @@ function App() {
         <Biodata />
         <Contact />
         <Skills />
+        <Hobbies />
       </aside>
     </div>
   );
