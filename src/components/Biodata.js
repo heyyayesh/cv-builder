@@ -35,13 +35,24 @@ function Biodata() {
     }
   }
 
+  const handleImageHover = () => {
+    const overlay = document.getElementById('overlay');
+    overlay.classList.add(styles.visible);
+  }
+
+  const handleImageCursorLeave = () => {
+    const overlay = document.getElementById('overlay');
+    overlay.classList.remove(styles.visible);
+  }
+
   return (
     <div className={styles.biodata}>
       <input type='file' onChange={handleImgChange} />
-      <img src={bio.profileImg} alt='profile' onClick={handleImgClick} />
+      <img src={bio.profileImg} alt='profile' onClick={handleImgClick} onMouseEnter={handleImageHover} onMouseLeave={handleImageCursorLeave}/>
       <EditableText type='firstname' content={bio.firstname} handleChange={handleChange} />
       <EditableText type='lastname' content={bio.lastname} handleChange={handleChange} />
       <EditableText type='profession' content={bio.profession} handleChange={handleChange} />
+      <div id='overlay' className={`${styles.imageOverlay}`} onClick={handleImgClick} onMouseEnter={handleImageHover} onMouseLeave={handleImageCursorLeave}><i className="fa-solid fa-pen-to-square"></i></div>
     </div>
   )
 }

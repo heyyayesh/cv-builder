@@ -1,3 +1,11 @@
+p {
+  cursor: pointer;
+}
+
+p:hover {
+  opacity: .8;
+}
+
 p.firstname {
   font-size: 2rem;
   font-family: 'Inter', sans-serif;

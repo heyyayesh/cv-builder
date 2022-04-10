@@ -18,3 +18,21 @@
   position: absolute;
   display: none;
 }
+
+.biodata > div {
+  width: 260px;
+  height: 260px;
+  background: rgba(255, 255, 255, .5);
+  position: absolute;
+  z-index: 1;
+  justify-content: center;
+  align-items: center;
+  color: black;
+  font-size: 2rem;
+  font-weight: 700;
+  display: none;
+}
+
+.biodata > div.visible {
+  display: flex;
+}
