@@ -1,0 +1,32 @@
+.Experience {
+  padding: 20px;
+  position: relative;
+}
+
+.Experience .invisible {
+  display: none;
+}
+
+.Experience h2 {
+  padding: .5rem 0;
+  font-family: 'Inter', sans-serif;
+  font-size: 1.8rem;
+  color: #02225c;
+  border-top: 1px solid gray;
+  border-bottom: 1px solid gray;
+  margin-bottom: 1rem;
+}
+
+.Experience > button {
+  position: absolute;
+  top: 40px;
+  right: 80px;
+  background: transparent;
+  transform: scale(1.5);
+  border: none;
+  cursor: pointer;
+}
+
+.Experience > button:hover {
+  transform: scale(1.8);
+}
