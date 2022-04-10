@@ -1,0 +1,105 @@
+.School {
+  margin-bottom: 50px;
+}
+
+.container, form {
+  display: grid;
+  grid-template-columns: 150px 1fr;
+  column-gap: 20px;
+  position: relative;
+}
+
+.invisible {
+  display: none;
+}
+
+.container .timing, .about h3 {
+  font-size: 1.3rem;
+  font-family: 'Karla';
+  font-weight: 300;
+  line-height: 1.5em;
+  color: rgb(36, 36, 36);
+}
+
+.container .timing {
+  padding-top: 3px;
+  text-transform: capitalize;
+}
+
+.about h3 {
+  font-size: 1.8rem;
+  font-weight: 500;
+  text-transform: capitalize;
+}
+
+.about > p {
+  font-size: 1.3rem;
+  font-family: 'Karla';
+  font-weight: 300;
+  line-height: 1.5em;
+  color: rgb(36, 36, 36);
+  font-style: italic;
+  text-transform: capitalize;
+}
+
+.container button {
+  width: 30px;
+  height: 30px;
+  background: transparent;
+  border: none;
+  cursor: pointer;
+  transform: scale(1.5);
+  position: absolute;
+  top: 0px;
+  right: 10px;
+}
+
+.container button:last-child {
+  right: 50px;
+}
+
+.container button:hover {
+  transform: scale(1.6);
+}
+
+form input {
+  color: rgb(36, 36, 36);
+}
+
+form input:focus {
+  background-color: white;
+  color: rgb(36, 36, 36);
+}
+
+form .timing input {
+  font-size: 1.2rem;
+  font-family: 'Karla';
+  font-weight: 300;
+  line-height: 1.5em;
+  color: rgb(36, 36, 36);
+  width: 150px;
+  margin-bottom: 16px;
+}
+
+form .about > input {
+  font-size: 1.8rem;
+  font-weight: 500;
+  margin-bottom: 16px;
+}
+
+form .about > div input {
+  font-size: 1.3rem;
+  font-family: 'Karla';
+  font-weight: 300;
+  line-height: 1.5em;
+  color: rgb(36, 36, 36);
+  font-style: italic;
+  margin-right: 16px;
+  margin-bottom: 16px;
+}
+
+form button {
+  grid-column: 2 / -1;
+  font-size: 1.2rem;
+  padding: 8px;
+}
